@@ -14,3 +14,4 @@ cd tinyserver
 - PyPI: https://pypi.org/project/tinyserver/  
 - Test PyPI: https://test.pypi.org/project/tinyserver/  
 - PyPI Buid Guidelines: https://packaging.python.org/en/latest/tutorials/packaging-projects/  
+- PyPI Token Generation: https://pypi.org/manage/account/token/  
