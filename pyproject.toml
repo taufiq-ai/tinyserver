@@ -1,5 +1,5 @@
 [project]
-name = "tinyserver"
+name = "nanoserver"
 version = "0.1.0"
 description = "Lightweight HTTP API server using Python stdlib"
 readme = "README.md"
@@ -16,6 +16,6 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
-Homepage = "https://github.com/taufiq-ai/tinyserver"
-Issues = "https://github.com/taufiq-ai/tinyserver/issues"
+Homepage = "https://github.com/taufiq-ai/nanoserver"
+Issues = "https://github.com/taufiq-ai/nanoserver/issues"
 

@@ -1,9 +1,9 @@
-# TinyServer
+# NanoServer
 
 **Zero-dependency HTTP API server built on Python's stdlib.** Simple, fast, pure Python.
 
 ```python
-from tinyserver import APIServer
+from nanoserver import APIServer
 
 server = APIServer(host="0.0.0.0", port=8000)
 server.add_route('GET', '/', lambda req: {"message": "Hello World"})
@@ -16,18 +16,18 @@ No Flask. No FastAPI. No dependencies. Just Python.
 
 **With pip:**
 ```bash
-pip install tinyserver
+pip install nanoserver
 ```
 
 **With uv:**
 ```bash
-uv add tinyserver
+uv add nanoserver
 ```
 
 ## Quick Start
 
 ```python
-from tinyserver import APIServer
+from nanoserver import APIServer
 
 server = APIServer(port=8000)
 
@@ -60,7 +60,7 @@ curl -X POST http://localhost:8000/echo -d '{"test":"data"}' -H "Content-Type: a
 ### Simple API
 
 ```python
-from tinyserver import APIServer
+from nanoserver import APIServer
 
 server = APIServer(port=8000)
 
@@ -79,7 +79,7 @@ server.run()
 ### Webhook Receiver
 
 ```python
-from tinyserver import APIServer
+from nanoserver import APIServer
 
 server = APIServer(port=9000)
 
@@ -95,7 +95,7 @@ server.run()
 ### Mock API for Testing
 
 ```python
-from tinyserver import APIServer
+from nanoserver import APIServer
 
 server = APIServer(port=3000)
 
@@ -116,7 +116,7 @@ server.run()
 ### Inference API for Local LLM
 
 ```python
-from tinyserver import APIServer
+from nanoserver import APIServer
 from your_local_model_loader import model
 
 server = APIServer(port=3000)
@@ -142,7 +142,7 @@ server.add_route('POST', '/inference', inference)
 server.run()
 ```
 
-## Why TinyServer?
+## Why NanoServer?
 
 - **🪶 Lightweight** - Pure Python stdlib, no dependencies
 - **⚡ Fast** - Running in miliseconds

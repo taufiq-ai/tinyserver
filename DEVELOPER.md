@@ -5,13 +5,13 @@
 
 ## Quick Setup
 ```bash
-git clone https://github.com/taufiq-ai/tinyserver.git
-cd tinyserver
+git clone https://github.com/taufiq-ai/nanoserver.git
+cd nanoserver
 ```
 
 ## Links
-- Issues: https://github.com/taufiq-ai/tinyserver/issues  
-- PyPI: https://pypi.org/project/tinyserver/  
-- Test PyPI: https://test.pypi.org/project/tinyserver/  
+- Issues: https://github.com/taufiq-ai/nanoserver/issues  
+- PyPI: https://pypi.org/project/nanoserver/  
+- Test PyPI: https://test.pypi.org/project/nanoserver/  
 - PyPI Buid Guidelines: https://packaging.python.org/en/latest/tutorials/packaging-projects/  
 - PyPI Token Generation: https://pypi.org/manage/account/token/  
