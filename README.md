@@ -161,8 +161,3 @@ Register a route. `method` is `'GET'` or `'POST'`.
 
 ### `server.run()`
 Start the server.
-
-## Links
-
-- PyPI: https://pypi.org/project/tinyserver/
-- Test PyPI: https://test.pypi.org/project/tinyserver/
