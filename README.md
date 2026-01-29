@@ -161,3 +161,11 @@ Register a route. `method` is `'GET'` or `'POST'`.
 
 ### `server.run()`
 Start the server.
+
+---
+
+## Contributing
+
+Found a bug? Want a feature? PRs welcome!
+
+**Made with ❤️ for developers who love simplicity (by [Taufiq](https://taufiq.cc))**
